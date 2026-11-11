@@ -24,19 +24,29 @@ header {
     background-image: linear-gradient(to bottom, black, white);
     color: white;
     text-align: center;
+    margin: 0px;
+    padding: 20px;
+    
+
 }
 
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--font2);
-    font-size: 5vw;
-    color: black;
+    font-size: 3em;
+}
+
+header > h2 {
+    padding: 10px;
+    font-variant: small-caps;
+    font-family: var(--font2);
 }
 
 header > p {
     padding-bottom: 50px;
 }
+
 a {
     color: white;
     text-decoration: none;
@@ -49,7 +59,8 @@ section {
     line-height: 2em;
     padding-left: 40px;
     font-family: var(--font3);
-    font-size: 2em
+    font-size: 2em;
+    margin: 10px;
 }
 
 section.normal {
@@ -68,6 +79,7 @@ section.imagem {
 section.imagem > p {
     background-color: rgba(3, 3, 3, 0.41);
     display: inline-block;
+    margin: 20px;
     padding: 10px;
     color: white;
 }
